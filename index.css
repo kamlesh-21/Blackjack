@@ -15,16 +15,28 @@ body{
     font-size: 30px;
 }
 button {
-    background-color: orangered;
+    background-color: #FF8E00;
+    width: 300px;
     color: white;
     padding: 12px 40px;
     font-size: 30px;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 5px;
-    margin-top: 5px;
+    margin-bottom: 8px;
+    margin-top: 8px;
     text-align: center;
-    border: none;   
+    border: none;
+    border-radius: 8px;
+    box-shadow: 2px 6px black
 
 }
+
+#message-el {
+    font-style: italic;
+}
+
+h1 {
+    text-shadow: 2px 2px white;
+}
+
